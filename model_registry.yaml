@@ -1,0 +1,9 @@
+gemini-2.0-flash-lite:
+  rpm: 30
+  tpm: 1500
+mistralai/devstral-small:free:
+  rpm: 20
+  rpd: 50
+gpt-4.1-mini:
+  rpm: 8
+  tpm: 40000
