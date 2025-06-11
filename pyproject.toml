@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "arc_coder"
+version = "0.1.0"
+description = "AI Coding Agent CLI"
+authors = ["OpenAI Codex"]
+packages = [{include = "arc"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+typer = "^0.9"
+redis = "^5.0"
+playwright = "^1.45"
+Faker = "^19.11"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4"
+mypy = "^1.8"
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
